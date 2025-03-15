@@ -4,6 +4,7 @@
 
 using namespace std;
 
+// Level wise traversal
 void bfs(int start, vector<vector<int>> &adjList, vector<bool> &visited) {
   queue<int> q;
   q.push(start);
@@ -34,7 +35,8 @@ int main() {
   int m, n;
   cin >> n >> m;
 
-  vector<vector<int>> adjList(n, vector(n, 0));
+  vector<vector<int>> adjList(n);
+
   vector<bool> visited(n, false);
 
   // Store the graph
