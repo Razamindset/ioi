@@ -2,6 +2,7 @@
 using namespace std;
 
 int main() {
+  // ! Error in code
   int m, n;
   cin >> m >> n;
 
