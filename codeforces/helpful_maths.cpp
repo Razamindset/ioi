@@ -17,7 +17,7 @@ int main() {
     if (ch == '+') {
       continue;
     }
-    numbers.push_back(ch - 0);
+    numbers.push_back(ch - '0');
   }
 
   sort(numbers.begin(), numbers.end());
